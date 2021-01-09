@@ -1,0 +1,111 @@
+/*h1{
+    color: cornflowerblue;
+}
+
+.aastha h1{
+    color: rgb(197, 165, 38);
+}
+.aastha li{
+     color: darkgreen;
+}
+* {
+  font-size: 30px;
+}
+.aastha li{
+    list-style:none;
+}
+.aastha li:nth-child(1)
+{
+    color: blueviolet;
+}
+
+h4{
+    margin:20px;
+    background-color: blue;
+}
+h4.button{
+    padding: 20px;
+    background-color: coral;
+}
+.aastha{
+    font-size: 20px;
+}
+button {
+    margin: 1rem;
+    padding: 1.5rem;
+    background: black;
+    color: lightyellow;
+    border: 0.2rem solid coral;
+    font-size: 1.4rem;
+    /*border-radius: 1.2rem;
+    if circle needed then
+    border-radius: 50%;
+    height: 10rem;
+    width: 10rem;
+}
+a {
+    display: block;
+    margin: 1rem;
+    padding: 1.5rem;
+    background: crimson;
+    color: darkgoldenrod;
+    text-align: center;
+}
+a{
+    display: inline-block;
+    margin: 1rem;
+    padding: 1rem;
+    background: chartreuse;
+    height: 10rem;
+    width: 10rem;
+}
+button{
+    padding: 2rem;
+    cursor: pointer;
+}
+button:hover{
+    background: rgb(219, 138, 138);
+}
+button:focus{
+    background: brown;
+}
+
+button:nth-child(2)
+{
+    padding: 2rem;
+    cursor: pointer;
+}*/
+
+.box1 {
+    
+    margin: 1rem;
+    height: 10rem;
+    width: 50%;
+    color: brown;
+    border: 0.2rem solid black;
+    background: cadetblue;
+}
+
+
+.box2 {
+    margin: 1rem;
+    height: 10rem;
+    width: 50%;
+    color:bisque;
+    border: 0.2rem solid black;
+    background: chartreuse;
+}
+.box3 {
+    margin: 1rem;
+    height: 10rem;
+    width: 50%;
+    color: brown;
+    border: 0.2rem solid black;
+    background: rgb(101, 107, 107);
+}
+.box2 {
+    float: right;
+}
+.clear{
+    clear: both;
+}
