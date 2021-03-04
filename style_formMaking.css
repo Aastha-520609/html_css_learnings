@@ -1,0 +1,172 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/2d03278e-72b5-4979-b3ff-f542a56a6e5f/dgqv9q-411c85c9-ff23-4aa8-b4e1-bc8b7a5cf4d3.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvMmQwMzI3OGUtNzJiNS00OTc5LWIzZmYtZjU0MmE1NmE2ZTVmXC9kZ3F2OXEtNDExYzg1YzktZmYyMy00YWE4LWI0ZTEtYmM4YjdhNWNmNGQzLmpwZyJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTpmaWxlLmRvd25sb2FkIl19.ZWFVfB-mBHr4dI7AWAeIiYnXrYqEFi2Xn12pM43nsKU);
+    background-position: center;
+    background-size: cover;
+    font-family: sans-serif;
+}
+.regform{
+    width: 800px;
+    background-color:rgb(52, 56, 64);
+    margin: auto;
+    color: white;
+    text-align: center;
+    padding-top: 2%;
+    margin-top: 1%;
+    padding-bottom: 1% ;
+    border-radius: 15px 15px 0% 0%;
+}
+.main{
+    background-color: rgb(96, 97, 99);
+    margin:auto;
+    width: 800px;   
+}
+form{
+    padding: 1%;
+}
+#name{
+    width: 100%;
+    height: 100px;
+}
+.name{
+    margin-left: 25px;
+    margin-top:30px;
+    width: 125px;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+}
+.firstName{
+    position: relative;
+    left: 150px;
+    top:-37px;
+    line-height: 40px;
+    border-radius: 6px;
+    padding:0px 22px;
+    font-size: 16px;
+}
+.lastName{
+    position: relative;
+    left:150px;
+    top:-37px;
+    line-height: 40px;
+    border-radius: 6px;
+    padding:0px 22px;
+    font-size: 16px;
+}
+.firstLabel{
+    position:relative;
+    color:lightblue;
+    text-transform: capitalize;
+    font-size: 14px;
+    right:20px;
+    top:-5px;
+}
+.lastLabel{
+    position:relative;
+    color:lightblue;
+    text-transform: capitalize;
+    font-size: 14px;
+    right:20px;
+    top:-5px;
+}
+.companyName{
+    position: relative;
+    left: 150px;
+    top:-37px;
+    line-height: 40px;
+    border-radius: 6px;
+    padding:0px 182px;
+    font-size: 16px;
+}
+.email_id{
+    position: relative;
+    left: 150px;
+    top:-37px;
+    line-height: 40px;
+    border-radius: 6px;
+    padding:0px 182px;
+    font-size: 16px;
+}
+.code{
+    position: relative;
+    left: 150px;
+    top:-37px;
+    line-height: 40px;
+    border-radius: 6px;
+    padding:0px 3px ;
+    font-size: 16px;
+}
+.number{
+    position: relative;
+    left: 150px;
+    top:-37px;
+    line-height: 40px;
+    border-radius: 6px;
+    padding:0px 38px ;
+    font-size: 16px;
+}
+.area-code{
+    position: relative;
+    color:lightblue;
+    top:-5px;
+    font:14px;
+}
+.phone-number{
+    position: relative;
+    color:lightblue;
+    top:-5px;
+    font:14px;
+    right:40px;
+}
+.option{
+    position: relative;
+    left: 150px;
+    top:-25px;
+    line-height: 40px;
+    border-radius: 6px;
+    padding:5px 350px 5px 5px;
+    font-size: 16px;
+}
+#student{
+    margin-left: 25px;
+    margin-top:30px;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+}
+.radio{
+    margin-left: 25px;
+    margin-top: 10px;
+    color: black;
+    font-size: 18px;
+    font-weight: 700;
+    display: inline-block;    
+}
+.radio input{
+    border-radius: 50%;
+    cursor: pointer;
+    outline: none;
+    width:20px;
+    height:20px;
+}
+.radio-one{
+    width:20px;
+    height:20px;
+}
+.radio-two{
+    width:20px;
+    height:20px;;
+}
+button{
+    color:lightseagreen;
+    display: block;
+    margin-top:2%;
+    margin-left: 42%;
+    padding: 1% 6% 1% 6%;
+    font-size: 18px;
+    border-radius:6px ;
+}
